@@ -1,0 +1,54 @@
+body {
+    font-size: 24px;
+}
+
+header,
+main,
+footer {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Calibri, Garamond, sans-serif;
+}
+
+header,
+footer {
+    border: 1px solid rgb(42, 22, 155);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: rgb(21, 138, 69);
+    text-align: center;
+    color: black;
+}
+
+header img {
+    float: right;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px rgb(58, 54, 54);
+    border-radius: 0 10px 0 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+main h2 {
+    border-bottom: 1px solid black;
+}
+
+
+footer a:link {
+    color: rgb(189, 27, 27);
+}
+
+footer a:visited {
+    color: rgb(0, 238, 255);
+}
+
+footer p {
+    color: rgb(3, 85, 40);
+}
+
+footer {
+    font-size: 1.2rem;
+}
