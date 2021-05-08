@@ -11,6 +11,13 @@ nav {
     background-color: pink;
     text-align: center;
 }
+
+nav a {
+    transition: font-size 2s;
+}
+nav a:hover {
+    font-size: larger;
+}
 @media only screen and (min-width: 37.5em) {
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
