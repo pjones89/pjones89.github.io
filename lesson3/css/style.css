@@ -6,6 +6,11 @@ h1 {
     color: purple;
     text-align: center;
 }
+
+nav {
+    background-color: pink;
+    text-align: center;
+}
 @media only screen and (min-width: 37.5em) {
 		nav ul { display: flex; }
 		nav ul li { flex: 1 1 100%; }
