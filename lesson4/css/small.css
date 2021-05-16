@@ -15,12 +15,9 @@ header {
      margin-top: 2em;
  }
  .menubutton {
-     position: relative;
+     text-align: center;
      font-size: 50px;
-     left: 5.5em;
-     bottom: 2em;
      color: pink;
-     text-decoration: none;
  }
  .menubutton:hover {
      background-color: purple;
