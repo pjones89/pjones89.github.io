@@ -1,0 +1,11 @@
+@media only screen and (min-width: 80em) {
+    h1 {
+        font-size: 40px;
+    }
+  header {
+      grid-template-columns: 200px 1000px 1fr;
+  }
+  h5 {
+      font-size: 20px;
+  }
+ }
