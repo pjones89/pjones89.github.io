@@ -37,8 +37,8 @@ h2 {
 	margin-right: 3em;
 }
 .weathersummary {	
-	background: #909888;
-	color: white;
+	background: pink;
+	color: black;
 	width: 15em;
 	position: relative;
 	bottom: 22em;
@@ -57,7 +57,7 @@ h2 {
 .daysimages {
 	margin-left: 2em;
 	margin-right: 2em;
-	background-color: #909888;
+	background-color: purple;
 	padding: 0em;
 	color: white;
 	display: grid;
