@@ -13,7 +13,7 @@ header {
  }
  header h1 {
      margin-top: 2em;
-     margin-left: 200px;
+     text-align: right;
  }
  .menubutton {
      margin-top: 50px;
@@ -28,7 +28,7 @@ header {
  }
   h5 {
       font-family: 'Fjalla One', sans-serif;
-      margin-left: 200px;
+      text-align: right;
   }
  .weatherlogo {
      width: 85%;
