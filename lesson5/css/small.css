@@ -1,2 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+header {
+    display: inline;
+    background-color: purple;
+    color: white;
+}
+
+#nameandphrase {
+    text-align: left;
+}
+
+header a {
+    text-align: right;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.heroimage {
+    width: 100%;
+}
+
+.heroimage img {
+    width: 100%;
+}
+
+.summary {
+    background-color: pink;
+    color: purple;
+}
+
+.forecast {
+    border: black;
+    background-color: purple;
+    color: white;
+}
+
+.forecast h3 {
+    text-align: center;
+}
+
+.forecastimgs img {
+    display: none;
+}
+
+.article {
+    background-color: pink;
+    color: purple;
+}
+
+.articleone {
+    display: none;
+}
+
+.articletwo {
+    width: 100%;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+}
+
+.location {
+    display: none;
+}
+
+.map {
+    width: 100%;
+}
+
+.socialmedia img {
+    display: none;
+}
+
+.realfooter {
+    text-align: center;
+}
