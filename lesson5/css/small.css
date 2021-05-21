@@ -3,6 +3,7 @@
 header {
     display: grid;
     grid-template-columns: 200px, 1fr, 100px;
+    width: 100%;
 }
 
 header img {
@@ -39,12 +40,14 @@ p {
 .summary {
     background-color: pink;
     color: purple;
+    width: 100%;
 }
 
 .forecast {
     border: black;
     background-color: purple;
     color: white;
+    width: 100%;
 }
 
 .forecast h3 {
@@ -58,6 +61,7 @@ p {
 .article {
     background-color: pink;
     color: purple;
+    width: 100%;
 }
 
 .articleone {
@@ -71,6 +75,7 @@ p {
 footer {
     background-color: purple;
     color: white;
+    width: 100%;
 }
 
 .location {
