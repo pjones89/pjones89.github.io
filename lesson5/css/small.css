@@ -6,8 +6,12 @@ header {
     color: white;
 }
 
+header img {
+    width: 30px;
+}
+
 #nameandphrase {
-    text-align: left;
+    margin-left: 45px;
 }
 
 header a {
