@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 header {
-    display: inline;
-    background-color: purple;
-    color: white;
+    display: grid;
+    grid-template-columns: 200px, 1fr, 100px;
 }
 
 header img {
     width: 30px;
+    grid-column: 1/2;
 }
 
 #nameandphrase {
     margin-left: 45px;
+    grid-column: 2/3;
 }
 
 header a {
     text-align: right;
+    grid-column: 3/4;
 }
 
 h1, h2, h3, h4 {
