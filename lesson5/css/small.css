@@ -121,3 +121,7 @@ footer {
 .realfooter {
     text-align: center;
 }
+
+.menuLinks {
+    display: none;
+}
