@@ -8,6 +8,8 @@ header {
 
 .head {
     background-color: purple;
+    width: 100%;
+    padding: 15px;
 }
 
 header img {
@@ -37,6 +39,7 @@ p {
 
 .heroimage {
     width: 100%;
+    padding: 15px;
 }
 
 .heroimage img {
@@ -47,6 +50,7 @@ p {
     background-color: pink;
     color: purple;
     width: 100%;
+    padding: 15px;
 }
 
 .forecast {
@@ -54,6 +58,7 @@ p {
     background-color: purple;
     color: white;
     width: 100%;
+    padding: 15px;
 }
 
 .forecast h3 {
@@ -68,6 +73,7 @@ p {
     background-color: pink;
     color: purple;
     width: 100%;
+    padding: 15px;
 }
 
 .articleone {
@@ -82,6 +88,7 @@ footer {
     background-color: purple;
     color: white;
     width: 100%;
+    padding: 15px;
 }
 
 .location {
