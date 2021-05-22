@@ -119,6 +119,17 @@ footer {
     text-align: center;
 }
 
-.menuLinks {
+#menuLinks {
     display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-align: center;
+    width: 100%;
+    background-color: pink;
+    color: white;
 }
