@@ -109,6 +109,11 @@ footer {
     width: 100%;
 }
 
+.map img {
+    max-width: 400px;
+    height: auto;
+}
+
 .socialmedia img {
     display: none;
 }
