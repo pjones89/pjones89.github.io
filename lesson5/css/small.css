@@ -25,12 +25,14 @@ header img {
     top: 75px;
 }
 
+
+
 #nameandphrase {
     margin-left: 45px;
     grid-column: 2/3;
-    font-size: -3em;
+    font-size: 15px;
     position: absolute;
-    left: 175px;
+    left: 75px;
 }
 
 .menubutton {
@@ -47,8 +49,12 @@ header img {
   font-family: 'Fjalla One', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Fjalla One', sans-serif;
+}
+
+h4 {
+font-family: Helvetica, sans-serif;
 }
 
 p {
