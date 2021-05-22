@@ -4,11 +4,15 @@ header {
     display: grid;
     grid-template-columns: 200px, 1fr, 100px;
     width: 100%;
+}
+
+.head {
     background-color: purple;
 }
 
 header img {
-    width: 300px;
+    max-width: 150px;
+    height: auto;
     grid-column: 1/2;
 }
 
