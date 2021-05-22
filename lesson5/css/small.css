@@ -19,6 +19,7 @@ header img {
 #nameandphrase {
     margin-left: 45px;
     grid-column: 2/3;
+    font-size: -2em;
 }
 
 header a {
