@@ -7,9 +7,72 @@
     #menulinks {
         display: table;
         margin: auto;
+        flex: 1 1 auto;
     }
 
     nav ul li {
         display: inline;
     }
+    
+  .heroimage img {
+    position: absolute;
+  }
+  
+  .summary {
+    box-sizing: content-box;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+    padding: 5px;
+    top: 50%;
+    left: 15px;
+  }
+  
+  
+  .forecast h3 {
+    text-align: left;
+}
+  
+  .forecastimgs img:first-child {
+    margin-left: 5px;
+  }
+
+.forecastimgs img {
+    display: inline-block;
+    margin-left: 15%;
+}
+  
+  .articletwo {
+    display: none;
+  }
+  
+  .articleone {
+    display: inline;
+    float: right;
+    padding: 5px;
+  }
+  
+  .location {
+    display: inline;
+  }
+  
+  .info {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+  }
+  footer {
+    height: 200px;
+    position: absolute;
+  }
+  
+  .socialmedia img {
+    display: inline;
+    float: right;
+  }
+  
+  .realfooter {
+    margin-top: 150px;
+  }
  }
