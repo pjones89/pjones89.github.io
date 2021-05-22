@@ -70,9 +70,28 @@
   .socialmedia img {
     display: inline;
     float: right;
+    max-width: 30px;
+    height: auto;
   }
   
   .realfooter {
     margin-top: 150px;
   }
+
+  .forecastimgs img {
+      max-width: 50px;
+      height: auto;
+  }
+
+  .articleone {
+      max-width: 100px;
+      height: auto;
+  }
+
+  .map img {
+      max-width: 200px;
+      height: auto;
+  }
+
+
  }
