@@ -45,7 +45,11 @@
     display: inline-block;
     margin-left: 15%;
 }
-  
+
+.article {
+    height: 200px;
+}
+
   .articletwo {
     display: none;
   }
