@@ -17,13 +17,15 @@
   .heroimage img {
     max-width: 100%;
     height: auto;
+    position: relative;
   }
   
   .summary {
     box-sizing: content-box;
     width: 150px;
     height: 200px;
-    position: relative;
+    position: absolute;
+    float: left;
     border: 5px solid white;
     padding: 5px;
     top: 50%;
