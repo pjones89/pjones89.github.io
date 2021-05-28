@@ -1,5 +1,5 @@
 function myMenu() {
-    var x = document.getElementById("menuLinks");
+    var x = document.getElementById("menulinks");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else{
