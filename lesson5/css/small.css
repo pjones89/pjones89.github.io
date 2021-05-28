@@ -35,14 +35,14 @@ header img {
     left: 75px;
 }
 
-.menubutton {
+#menubutton {
   position: absolute;
   right: 30px;
   top: 75px;
   color: white;
 }
 
-.menubutton a {
+#menubutton a {
   color: white;
   text-decoration: none;
   font-size: 35px;
