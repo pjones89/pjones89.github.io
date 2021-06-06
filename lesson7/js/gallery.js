@@ -1,6 +1,6 @@
 // the following is taken from this weeks lesson (the youtube video for lazy loading)
-
-const images = document.querySelectorAll("img[data-src]");
+// For some reason, this wasn't working. Not sure what I did wrong. That same guy who made that youtube video made another video showing a newer lazy loading option that doesn't use javascript. I will leave this code here, but will use his other option.
+const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img) {
     const src = img.getAttribute("data-src");
