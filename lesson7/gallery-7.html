@@ -7,8 +7,169 @@
     <title>Image Gallery</title>
     <meta name="Image Gallery" content="Image Gallery">
     <script src="js/gallery.js"></script>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+        }
+
+        #cloudy {
+            grid-row: 1/2;
+        }
+
+        #foggy {
+            grid-row: 2/3;
+        }
+
+        #leaves {
+            grid-row: 3/4;
+        }
+
+        #lightning {
+            grid-row: 4/5;
+        }
+
+        #rainbow {
+            grid-row: 5/6;
+        }
+
+        #rainy-2 {
+            grid-row: 6/7;
+        }
+
+        #rainy {
+            grid-row: 7/8;
+        }
+
+        #snowy {
+            grid-row: 8/9;
+        }
+
+        #umbrellas {
+            grid-row: 9/10;
+        }
+
+        @media only screen and (min-width: 40em) {
+            #gallery {
+                display: grid;
+                grid-template-columns: auto, auto;
+                grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+            }
+
+            #cloudy {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            }
+
+            #foggy {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            }
+
+            #leaves {
+            grid-row: 2/3;
+            grid-column: 1/2;
+            }
+
+            #lightning {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            }
+
+            #rainbow {
+            grid-row: 3/4;
+            grid-column: 1/2;
+            }
+
+            #rainy-2 {
+            grid-row: 3/4;
+            grid-column: 2/3;
+            }
+
+            #rainy {
+            grid-row: 4/5;
+            grid-column: 1/2;
+            }
+
+            #snowy {
+            grid-row: 4/5;
+            grid-column: 2/3;
+            }
+
+            #umbrellas {
+            grid-row: 5/6;
+            grid-column: 1/2;
+            }
+
+        }
+
+        @media only screen and (min-width: 80em) {
+            #gallery {
+                display: grid;
+                grid-template-columns: auto, auto, auto;
+                grid-template-rows: 1fr, 1fr, 1fr;
+            }
+
+            #cloudy {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            }
+
+            #foggy {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            }
+
+            #leaves {
+            grid-row: 1/2;
+            grid-column: 3/4;
+            }
+
+            #lightning {
+            grid-row: 2/3;
+            grid-column: 1/2;
+            }
+
+            #rainbow {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            }
+
+            #rainy-2 {
+            grid-row: 2/3;
+            grid-column: 3/4;
+            }
+
+            #rainy {
+            grid-row: 3/4;
+            grid-column: 1/2;
+            }
+
+            #snowy {
+            grid-row: 3/4;
+            grid-column: 2/3;
+            }
+
+            #umbrellas {
+            grid-row: 3/4;
+            grid-column: 3/4;
+            }
+
+        }
+    </style>
 </head>
 <body>
+    <header>Lazy Loading Images</header>
+    <div id="gallery">
     <div id="cloudy">
         <img data-src="cloudy.jpg" alt="cloudy">
     </div>
@@ -35,6 +196,7 @@
     </div>
     <div id="umbrellas">
         <img data-src="umbrellas.jpg" alt="umbrellas">
+    </div>
     </div>
 </body>
 </html>
