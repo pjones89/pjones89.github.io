@@ -23,10 +23,6 @@ tbody tr th, #highlight {
     color: white;
 }
 
-tbody:nth-child(6):first-child td{
-    font-style: italic;
-}
-
 tfoot td {
     font-size: -2rem;
 }
