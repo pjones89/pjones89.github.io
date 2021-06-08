@@ -26,14 +26,13 @@ tfoot td {
 table {
     box-shadow: 8px 5px 10px #628ca6;
     border-style: none;
+    border-collapse: collapse;
 }
 
 tbody tr td {
-    border-style: solid;
-    border-color: #628ca6;
+    border: 1px solid #628ca6;
 }
 
 tbody tr th, #highlight {
-    border-style: solid;
-    border-color: white;
+    border: 1px solid white;
 }
