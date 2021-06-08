@@ -31,10 +31,11 @@ table {
     box-shadow: 8px 5px 10px #628ca6;
     border-style: none;
     border-collapse: collapse;
-    padding: 5px;
 }
 
-
+table * {
+    padding: 5px;
+}
 
 tbody tr td {
     border: 1px solid #628ca6;
@@ -42,4 +43,12 @@ tbody tr td {
 
 tbody tr th, #highlight {
     border: 1px solid white;
+}
+
+tbody tr th, tbody tr td, tfoot tr td {
+    height: 15px;
+}
+
+thead tr th {
+    height: 25px;
 }
