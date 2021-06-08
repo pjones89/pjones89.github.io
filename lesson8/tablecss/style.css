@@ -6,6 +6,14 @@ th, td {
     text-align: center;
 }
 
+tbody:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tbody:nth-child(3), tbody:nth-child(5), tbody:nth-child(7) {
+    background-color: #e7ffed;
+}
+
 thead, tfoot {
     background-color: #7fb9c2;
 }
@@ -20,14 +28,17 @@ tbody:nth-child(6):first-child td{
 }
 
 tfoot td {
-    font-size: -1em;
+    font-size: -2rem;
 }
 
 table {
     box-shadow: 8px 5px 10px #628ca6;
     border-style: none;
     border-collapse: collapse;
+    padding: 5px;
 }
+
+
 
 tbody tr td {
     border: 1px solid #628ca6;
