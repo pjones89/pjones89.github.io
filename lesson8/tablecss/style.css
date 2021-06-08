@@ -10,12 +10,12 @@ thead, tfoot {
     background-color: #7fb9c2;
 }
 
-tbody:nth-child(1) th, #highlight {
+tbody:first-child, #highlight {
     background-color: #628ca6;
     color: white;
 }
 
-tbody:nth-child(6):nth-child(1) {
+tbody:nth-child(6):first-child {
     font-style: italic;
 }
 
