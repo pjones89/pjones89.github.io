@@ -10,12 +10,12 @@ thead, tfoot {
     background-color: #7fb9c2;
 }
 
-tbody:first-child, #highlight {
+tbody tr th, #highlight {
     background-color: #628ca6;
     color: white;
 }
 
-tbody:nth-child(6):first-child {
+tbody:nth-child(6):first-child td{
     font-style: italic;
 }
 
@@ -25,4 +25,15 @@ tfoot td {
 
 table {
     box-shadow: 8px 5px 10px #628ca6;
+    border-style: none;
+}
+
+tbody tr td {
+    border-style: solid;
+    border-color: #628ca6;
+}
+
+tbody tr th, #highlight {
+    border-style: solid;
+    border-color: white;
 }
