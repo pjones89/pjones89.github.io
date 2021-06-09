@@ -45,7 +45,7 @@
         <h3>Help us help you! Please fill out all the info below so we can have our best chance at helping you.</h3>
         <form action="thanks.html">
             <label for="fullname">Enter your Full Name: </label>
-            <input type="text" required id="fullname" name="fullname" pattern="[A-Z]{8,}"><br><br>
+            <input type="text" required id="fullname" name="fullname" pattern="[A-Z]{5,}"><br><br>
             <label for="emailaddress">Enter a valid Email Address: </label>
             <input type="email" id="emailaddress" name="emailaddress" placeholder="johndoe123@email.com"><br><br>
             <label for="phone">Enter a Phone Number: </label>
@@ -57,14 +57,15 @@
             <label for="stormtype">What type of storm is it? </label>
             <input list="stormtype" id="stormtype" name="stormtype">
             <datalist id="stormtype">
-                <option value="Flash Flood">
-                <option value="Hail">
-                <option value="Hurricane">
-                <option value="Thunderstorm">
-                <option value="Tornado">
+                <option value="Flash Flood">Flash Flood</option>
+                <option value="Hail">Hail</option>
+                <option value="Hurricane">Hurricane</option>
+                <option value="Thunderstorm">Thunderstorm</option>
+                <option value="Tornado">Tornado</option>
             </datalist><br><br>
             <label for="severity">How severe is the storm on a scale of 1-10? (10 being very bad)</label>
-            <input type="range" id="severity" name="severity" min="1" max="10"><br><br>
+            <input type="range" id="severity" name="severity" value="5" min="1" max="10" list="tickmarks" oninput="changeRange(this.value)" onchange="changeRange(this.value)">
+            <span id="rangevalue">5</span><br><br>
             <label for="region">What region is the storm located? </label>
             <select id="region" name="region">
                 <option hidden>Select Region...</option>

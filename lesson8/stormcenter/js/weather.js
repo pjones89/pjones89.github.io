@@ -20,3 +20,8 @@ WebFont.load({
       ]
     }
   });
+
+  //taken from codepen.io/blazzard-jason/pen/oMRdJg (codepen that was included in the assignment for week 8)
+  function changeRange(range) {
+      document.getElementById("rangevalue").innerHTML = range;
+  }
