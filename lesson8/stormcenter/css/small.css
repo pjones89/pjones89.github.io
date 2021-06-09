@@ -168,3 +168,8 @@ nav ul li a:hover {
 nav ul li {
   padding: 10px;
 }
+
+main * {
+    text-align: center;
+    padding: 10px;
+}
