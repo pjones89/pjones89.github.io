@@ -150,6 +150,7 @@ footer {
 
 nav ul {
     list-style-type: none;
+    background-color: pink;
 }
 
 nav ul li a {
