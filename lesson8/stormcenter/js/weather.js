@@ -16,9 +16,9 @@ function myMenu() {
 var x = document.getElementById("menulinks");
 window.onresize = () => {
     if (window.innerWidth >= 40) {
-        x.style.display = "inline";
+        x.display = "inline";
     } else {
-        x.style.display = "none"
+        x.display = "none"
     }
 }
 
