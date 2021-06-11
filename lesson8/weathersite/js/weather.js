@@ -13,8 +13,8 @@ function myMenu() {
 }
 
 // the following code has been taken (and somewhat modified) from the codepen provided in week 4: "codepen.io/blazzard-jason/pen/gmGxaj"
-var x = document.getElementById("menulinks");
 window.onresize = () => {
+    let x = document.getElementById("menulinks");
     if (window.innerWidth >= 40) {
         x.style.display = "inline";
     } else {
