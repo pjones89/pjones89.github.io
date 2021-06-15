@@ -7,9 +7,9 @@ h1, h2 {
 section {
     background-color: lightblue;
     text-align: center;
-    padding: 15px;
-    margin: 15px;
-    width: 100%;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 img {
