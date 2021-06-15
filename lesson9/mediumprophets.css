@@ -1,9 +1,5 @@
 @media only screen and (min-width: 40em) {
-    #cards {
-        column-count: 2;
-    }        
-
-    section {
+    .cards {
         column-count: 2;
     }
 }

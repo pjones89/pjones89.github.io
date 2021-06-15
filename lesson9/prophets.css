@@ -10,7 +10,6 @@ section {
     padding: 15px;
     margin: 15px;
     width: 100%;
-    column-count: 1;
 }
 
 img {
@@ -25,6 +24,6 @@ img {
     -o-box-shadow: 0 0 30px grey;
 }
 
-#cards {
+.cards {
     column-count: 1;
 }
