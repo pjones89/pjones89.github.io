@@ -2,4 +2,8 @@
     #cards {
         column-count: 4;
     }
+
+    section {
+        column-count: 4;
+    }
 }

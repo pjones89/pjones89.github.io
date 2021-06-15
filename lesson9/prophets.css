@@ -10,6 +10,7 @@ section {
     padding: 15px;
     margin: 15px;
     width: 100%;
+    column-count: 1;
 }
 
 img {
@@ -25,5 +26,5 @@ img {
 }
 
 #cards {
-    column-count: 4;
+    column-count: 1;
 }
