@@ -24,13 +24,13 @@ window.onresize = () => {
 
 
 //taken from our lesson this week
-WebFont.load({
-    google: {
-      families: [
-         'Fjalla One'
-      ]
-    }
-  });
+//WebFont.load({
+    //google: {
+      //families: [
+         //'Fjalla One'
+      //]
+    //}
+  //});
 
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
