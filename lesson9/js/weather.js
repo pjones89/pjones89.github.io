@@ -63,7 +63,7 @@ fetch(requestURL)
             place.appendChild(p3);
             place.appendChild(image);
 
-            if (towns[i].name == "Soda Springs") or (towns[i].name == "Fish Haven") ;or (towns[i].name == "Preston") ;{
+            if (towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven" || towns[i].name == "Preston") {
                 document.querySelector("div.places").appendChild(place);
             }
         }
