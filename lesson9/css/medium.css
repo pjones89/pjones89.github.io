@@ -1,0 +1,125 @@
+@media only screen and (min-width: 40em) {
+
+    #menubutton {
+        display: none;
+    }
+
+    #menulinks {
+        display: table;
+        margin: auto;
+        flex: 1 1 auto;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    .heroimage img {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .summary {
+        box-sizing: content-box;
+        width: 150px;
+        height: 200px;
+        position: absolute;
+        float: left;
+        border: 5px solid white;
+        padding: 5px;
+        top: 65%;
+        left: 25px;
+    }
+
+
+    .forecast h3 {
+        text-align: left;
+    }
+
+    .forecastimgs img:first-child {
+        margin-left: 5px;
+    }
+
+    .forecastimgs img {
+        display: inline-block;
+        margin-left: 15%;
+    }
+
+    .article {
+        height: 200px;
+    }
+
+    .articletwo {
+        display: none;
+    }
+
+    .articleone {
+        display: inline;
+        float: right;
+        padding: 5px;
+    }
+
+    .location {
+        display: inline;
+    }
+
+    .info {
+        display: inline;
+        float: right;
+        margin-right: 50px;
+    }
+
+    footer {
+        height: 200px;
+        position: absolute;
+    }
+
+    .socialmedia img {
+        display: inline;
+        float: right;
+        max-width: 30px;
+        height: auto;
+    }
+
+    .realfooter {
+        margin-top: 150px;
+    }
+
+    .forecastimgs img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    .articleone {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .map img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(odd) h2, section:nth-child(odd) h5, section:nth-child(odd) p {
+        grid-column: 1/2;
+    }
+
+    section:nth-child(odd) img {
+        grid-column: 2/3;
+    }
+
+    section:nth-child(2) img {
+        grid-column: 1/2;
+    }
+    
+    section:nth-child(2) h2, section:nth-child(2) h5, section:nth-child(2) p {
+        grid-column: 2/3;
+    }
+
+}
