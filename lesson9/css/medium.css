@@ -112,12 +112,14 @@
 
     section:nth-child(odd) img {
         grid-column: 2/3;
-        align-self: center;
+        margin-bottom: 45px;
+        margin-left: 30px;
     }
 
     section:nth-child(2) img {
         grid-column: 1/2;
-        align-self: center;
+        margin-bottom: 45px;
+        margin-left: 30px;
     }
 
     section:nth-child(2) h2, section:nth-child(2) h5, section:nth-child(2) p {
@@ -125,7 +127,6 @@
     }
 
     .weather-article {
-        display: inline;
-        text-align: center;
+        margin-left: 150px;
     }
 }
