@@ -180,3 +180,11 @@ section {
     margin-right: 8px;
     margin-bottom: 8px;
 }
+
+.weather-article {
+    background-color: pink;
+    text-align: center;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
