@@ -114,11 +114,15 @@
     section:nth-child(odd) img {
         grid-column: 2/3;
         grid-row: 2/4;
+        max-width: 100%;
+        height: auto;
     }
 
     section:nth-child(2) img {
         grid-column: 1/2;
         grid-row: 2/4;
+        max-width: 100%;
+        height: auto;
     }
 
     section:nth-child(2) h2, section:nth-child(2) h5, section:nth-child(2) p {
