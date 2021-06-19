@@ -5,9 +5,8 @@
     }
 
     #menulinks {
-        display: table;
-        margin: auto;
-        flex: 1 1 auto;
+        display: inline;
+        width: 16.5%;
     }
 
     nav ul li {
