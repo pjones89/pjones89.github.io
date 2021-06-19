@@ -19,4 +19,9 @@
   section:nth-child(3) {
     grid-column: 3/4;
   }
+
+  section img {
+    width: 268px;
+    height: auto;
+  }
 }
