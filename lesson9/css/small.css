@@ -188,3 +188,11 @@ section {
     margin-right: 8px;
     margin-bottom: 8px;
 }
+
+#homeBanner {
+    width: 100%;
+}
+
+#homeBanner img {
+    max-width: 100%;
+}
