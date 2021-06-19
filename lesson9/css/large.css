@@ -1,7 +1,7 @@
 @media only screen and (min-width: 80em) {
   section {
     display: block;
-    width: 400px;
+    width: 410px;
   }
 
   .places {
@@ -22,7 +22,7 @@
   }
 
   section img {
-    width: 268px;
+    max-width: 50%;
     height: auto;
   }
 }
