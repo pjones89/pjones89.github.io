@@ -1,6 +1,22 @@
 @media only screen and (min-width: 80em) {
-    
-    
+  section {
+    display: block;
+  }
 
+  .places {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
- }
+  section:nth-child(1) {
+    grid-column: 1/2;
+  }
+
+  section:nth-child(2) {
+    grid-column: 2/3;
+  }
+
+  section:nth-child(3) {
+    grid-column: 3/4;
+  }
+}
