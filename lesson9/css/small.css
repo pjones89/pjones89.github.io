@@ -190,7 +190,7 @@ section {
 }
 
 #homeBanner {
-    width: 100%;
+    max-width: 100%;
 }
 
 #homeBanner img {
