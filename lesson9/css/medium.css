@@ -6,11 +6,11 @@
 
     #menulinks {
         display: inline;
-        width: 16.5%;
     }
 
     nav ul li {
         display: inline;
+        width: 16.5%;
     }
 
     .heroimage img {
