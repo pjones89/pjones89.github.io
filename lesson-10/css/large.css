@@ -1,5 +1,5 @@
 @media only screen and (min-width: 80em) {
-  section {
+  .places section {
     display: block;
     width: 410px;
   }
@@ -9,19 +9,19 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  section:nth-child(1) {
+  .places section:nth-child(1) {
     grid-column: 1/2;
   }
 
-  section:nth-child(2) {
+  .places section:nth-child(2) {
     grid-column: 2/3;
   }
 
-  section:nth-child(3) {
+  .places section:nth-child(3) {
     grid-column: 3/4;
   }
 
-  section img {
+  .places section img {
     max-width: 50%;
     height: auto;
   }

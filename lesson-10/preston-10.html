@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/weather.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -58,12 +59,32 @@
       </div>
         <div class="forecast">
             <h3>Five Day Forecast</h3>
-            <div class="forecastimgs">
-                <img src="images/daily.jpg" alt="flower">
-                <img src="images/daily.jpg" alt="flower">
-                <img src="images/daily.jpg" alt="flower">
-                <img src="images/daily.jpg" alt="flower">
-                <img src="images/daily.jpg" alt="flower">
+            <div class="forecast-grid">
+            <section class="firstday">
+                <div id="dayforecast1"></div>
+                <img id="forecastimg1">
+                <div id="forecasttemp1"></div>
+            </section>
+            <section class="secondday">
+                <div id="dayforecast2"></div>
+                <img id="forecastimg2">
+                <div id="forecasttemp2"></div>    
+            </section>
+            <section class="thirdday">
+                <div id="dayforecast3"></div>
+                <img id="forecastimg3">
+                <div id="forecasttemp3"></div>
+            </section>
+            <section class="fourthday">
+                <div id="dayforecast4"></div>
+                <img id="forecastimg4">
+                <div id="forecasttemp4"></div>
+            </section>
+            <section class="fifthday">
+                <div id="dayforecast5"></div>
+                <img id="forecastimg5">
+                <div id="forecasttemp5"></div>
+            </section>
             </div>
         </div>
         <div class="article">

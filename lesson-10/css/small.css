@@ -80,7 +80,7 @@ p {
 .forecast {
     border: black;
     background-color: purple;
-    color: white;
+    color: black;
     width: 100%;
     padding: 15px;
     margin-left: -10px;
@@ -88,11 +88,39 @@ p {
 
 .forecast h3 {
     text-align: center;
+    color: white;
 }
 
-.forecastimgs img {
-    display: none;
+.forecast-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
 }
+
+  .firstday {
+    grid-column: 1/2;
+  }
+
+  .secondday {
+    grid-column: 2/3;
+  }
+
+  .thirdday {
+    grid-column: 3/4;
+  }
+
+  .fourthday {
+    grid-column: 4/5;
+  }
+
+  .fifthday {
+    grid-column: 5/6;
+  }
+
+  .forecast-grid section {
+    background-color: pink;
+    text-align: center;
+  }
 
 .article {
     background-color: pink;

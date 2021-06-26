@@ -80,3 +80,29 @@ fetch(apiURL)
         document.getElementById("humidity").textContent = "Humidity: " + jsObject.main.humidity;
         document.getElementById("windspeed").textContent = "Wind Speed: " + jsObject.wind.speed;
     });
+
+const newapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=ae108c558855c818874b0048edb42a8f"
+fetch(newapiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        console.log(jsObject);
+        var daysofweek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        var list = jsObject.list;
+        var daynumber = 0
+        for (let x = 0; x < list.length; x++) {
+            var date = list[x].dt_txt;
+
+            if (date.includes("18:00")) {
+                daynumber++;
+                var currentdate = new Date(date);
+                var name = daysofweek[currentdate.getDay()];
+                var temp = list[x].main.temp;
+                var iconWebsite = "http://openweathermap.org/img/wn/" + list[x].weather[0].icon + "@2x.png";
+
+                document.getElementById("dayforecast" + daynumber).innerHTML = name;
+                document.getElementById("forecastimg" + daynumber).setAttribute = ("src", iconWebsite);
+                document.getElementById("forecasttemp" + daynumber).innerHTML = temp;
+            }
+        }
+
+        });
