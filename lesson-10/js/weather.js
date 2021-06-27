@@ -97,7 +97,7 @@ fetch(newapiURL)
                 var currentdate = new Date(date);
                 var name = daysofweek[currentdate.getDay()];
                 var temp = list[x].main.temp;
-                var iconWebsite = "http://openweathermap.org/img/wn/" + list[x].weather[0].icon + "@2x.png";
+                const iconWebsite = "http://openweathermap.org/img/wn/" + list[x].weather[0].icon + ".png";
 
                 document.getElementById("dayforecast" + daynumber).innerHTML = name;
                 document.getElementById("forecastimg" + daynumber).setAttribute = ("src", iconWebsite);
