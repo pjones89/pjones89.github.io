@@ -100,7 +100,7 @@ fetch(newapiURL)
                 const iconWebsite = "http://openweathermap.org/img/wn/" + list[x].weather[0].icon + ".png";
 
                 document.getElementById("dayforecast" + daynumber).innerHTML = name;
-                document.getElementById("forecastimg" + daynumber).setAttribute = ("src", iconWebsite);
+                document.getElementById("forecastimg" + daynumber).setAttribute("src", iconWebsite);
                 document.getElementById("forecasttemp" + daynumber).innerHTML = temp;
             }
         }

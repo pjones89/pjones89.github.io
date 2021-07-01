@@ -4,12 +4,11 @@
         display: none;
     }
 
-    #menulinks {
-        display: inline;
+    .navbar {
+        display: flex;
     }
 
     nav ul li {
-        display: inline;
         width: 16.5%;
     }
 

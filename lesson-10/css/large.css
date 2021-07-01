@@ -4,6 +4,10 @@
     width: 410px;
   }
 
+  .navbar {
+    display: flex;
+}
+
   .places {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
