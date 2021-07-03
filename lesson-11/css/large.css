@@ -1,0 +1,32 @@
+@media only screen and (min-width: 80em) {
+  .places section {
+    display: block;
+    width: 410px;
+  }
+
+  .navbar {
+    display: flex;
+}
+
+  .places {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .places section:nth-child(1) {
+    grid-column: 1/2;
+  }
+
+  .places section:nth-child(2) {
+    grid-column: 2/3;
+  }
+
+  .places section:nth-child(3) {
+    grid-column: 3/4;
+  }
+
+  .places section img {
+    max-width: 50%;
+    height: auto;
+  }
+}
