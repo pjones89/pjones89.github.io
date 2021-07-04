@@ -222,5 +222,6 @@ section {
 }
 
 #homeBanner img {
-    max-width: 100%;
+    width: 375px;
+    height: auto;
 }

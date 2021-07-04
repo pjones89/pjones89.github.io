@@ -87,4 +87,9 @@
         max-width: 200px;
         height: auto;
     }
+
+    #homeBanner img {
+        width: 750px;
+        height: auto;
+    }
 }
