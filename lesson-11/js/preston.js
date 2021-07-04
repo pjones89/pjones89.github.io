@@ -58,4 +58,4 @@ fetch(newapiURL)
                 }
                 document.querySelector("div.events").appendChild(events);
             }
-            })
+            });
