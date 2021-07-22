@@ -1,0 +1,44 @@
+{
+	"businesses": {
+		"0": {
+			"name": "Distinctive Image, LLC",
+			"phone": "801-243-6088",
+			"website": "https://opencorporates.com/companies/us_ut/6474441-0160"
+		}
+		,"1": {
+			"name": "Kaia & Kasper Co.",
+			"phone": "801-631-8613",
+			"website": "https://www.kaiaandkasper.com/",
+			"logo": "kaia.jpg"
+		}
+		,"2": {
+			"name": "Moydn Design, Inc",
+			"phone": "801-707-1578",
+			"website": "https://www.buzzfile.com/business/Moydn-Design-,-Inc.-801-707-1578"
+		}
+		,"3": {
+			"name": "Pristine Cabinet Installation",
+			"phone": "385-268-9708",
+			"website": "https://m.facebook.com/Pristine-Cabinet-Installation-194613965338299/",
+			"logo": "pristine.jpg"
+		}
+		,"4": {
+			"name": "Smart Technology",
+			"phone": "801-918-7485",
+			"website": "http://smarttech.guru/"
+		}
+		,"5": {
+			"name": "The Greener Side Lawn Care Service",
+			"phone": "801-673-6959",
+			"website": "https://thegreenersidelawn.com/",
+			"logo": "greenerside.png"
+		}
+		,"6": {
+			"name": "Wash N Wax",
+			"phone": "801-548-2635",
+			"website": "https://www.gowashnwax.com/",
+			"logo": "washnwax.png"
+		}
+	}
+}
+		
